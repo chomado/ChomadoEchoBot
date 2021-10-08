@@ -51,6 +51,7 @@ namespace ChomadoEchoBot
             _logger = loggerFactory.CreateLogger<ChomadoEchoBotBot>();
             _logger.LogTrace("Turn start.");
         }
+        // web ブラウザ上から編集
 
         /// <summary>
         /// Every conversation turn for our Echo Bot will call this method.
